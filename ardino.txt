@@ -1,0 +1,18 @@
+To recieve serial inputs
+
+data char;
+void setput()
+{
+	Serail.begin(9600);
+}
+void loop()
+{
+	if(Serial.available()>0){
+	data=Serial.read();
+	delay(500);
+	Serial.write(data);
+	}
+}
+
+
+

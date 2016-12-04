@@ -1,0 +1,10 @@
+Rasbian to bootable --- win32 Disk Imager --- available only on windows.
+
+Rasbarian
+Root access -- sudo -i
+Terminal to destop ---> startx
+configure settings in rasbian -- raspi-config
+update rasbian - sudo apt-get update
+
+enabling python GPIA port --- sudo apt-get install python-Rpi.GPIO
+open editor -- sudo nano 
